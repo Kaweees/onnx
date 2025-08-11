@@ -1,0 +1,13 @@
+[project]
+name = "onnx"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "onnxruntime-gpu==1.23.0",
+]
+
+[[tool.uv.index]]
+name = "jetson-ai-lab"
+url = "https://pypi.jetson-ai-lab.io/jp6/cu129/+simple"
